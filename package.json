@@ -1,6 +1,6 @@
 {
   "name": "@yondav-configs/eslint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A collection of eslint configurations",
   "main": "configs/core.base.js",
   "files": [
