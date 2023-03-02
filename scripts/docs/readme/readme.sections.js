@@ -27,10 +27,10 @@ module.exports = {
 
   \`\`\`
   # npm
-  npm install @yondav-configs/eslint
+  npm install @yondav-configs/eslint-config
 
   # yarn
-  yarn add @yondav-configs/eslint
+  yarn add @yondav-configs/eslint-config
   \`\`\`
 `
   ),

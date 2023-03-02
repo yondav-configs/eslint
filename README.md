@@ -5,7 +5,7 @@
 <!-- HEADER -->
 
 <div align="center">
-  <h1 align="center">@yondav-configs/eslint</h1>
+  <h1 align="center">@yondav-configs/eslint-config</h1>
   <p align="center">A collection of eslint configurations</p>
 </div>
 <br />
@@ -92,10 +92,10 @@
 
   ```
   # npm
-  npm install @yondav-configs/eslint
+  npm install @yondav-configs/eslint-config
 
   # yarn
-  yarn add @yondav-configs/eslint
+  yarn add @yondav-configs/eslint-config
   ```
 
 
