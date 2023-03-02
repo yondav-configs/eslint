@@ -1,0 +1,46 @@
+{
+  "name": "@yondav-configs/eslint",
+  "version": "0.0.0",
+  "description": "A collection of eslint configurations",
+  "main": "configs/core.base.js",
+  "files": [
+    "./configs/core.base.js",
+    "./configs/core.react-hooks.js",
+    "./configs/core.react.js",
+    "./configs/core.typescript-react.js",
+    "./configs/core.typescript.js",
+    "./rules/**/*"
+  ],
+  "scripts": {
+    "docs": "node scripts/docs",
+    "fix": "eslint . --ext \"**/*.{ts,tsx,js,jsx}\" --fix",
+    "git:alias-commit": "git config alias.cz 'npx cz'",
+    "git:hookspath": "git config core.hooksPath .githooks",
+    "lint": "eslint . --ext \"**/*.{ts,tsx,js,jsx}\"",
+    "git:preinstall": "yarn git:hookspath && yarn git:alias-commit",
+    "release": "node scripts/release.js"
+  },
+  "repository": {},
+  "author": "yondav",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.11",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.35.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/parser": "^5.54.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "eslint": "^8.35.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
