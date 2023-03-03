@@ -1,5 +1,6 @@
 .git/**/*
 .githooks/**/*
+.github/**/*
 .vscode/**/*
 node_modules
 scripts/**/*
