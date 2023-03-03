@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/yondav-configs/eslint/compare/v1.0.0...v1.0.1) (2023-03-03)
+
+
+### Bug Fixes
+
+* adds npmignore file in attempt to resolve missing files from publish ([9f7860d](https://github.com/yondav-configs/eslint/commit/9f7860d3d5b1c77944d507629a8369158868306c))
+
 ## 1.0.0 (2023-03-02)
 
 
