@@ -3,14 +3,6 @@
   "version": "0.0.0",
   "description": "A collection of eslint configurations",
   "main": "configs/core.base.js",
-  "files": [
-    "./configs/core.base.js",
-    "./configs/core.react-hooks.js",
-    "./configs/core.react.js",
-    "./configs/core.typescript-react.js",
-    "./configs/core.typescript.js",
-    "./rules/**/*"
-  ],
   "scripts": {
     "docs": "node scripts/docs",
     "fix": "eslint . --ext \"**/*.{ts,tsx,js,jsx}\" --fix",

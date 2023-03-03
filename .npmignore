@@ -1,0 +1,12 @@
+.git/**/*
+.githooks/**/*
+.vscode/**/*
+node_modules
+scripts/**/*
+utils/**/*
+.czrc
+.editorconfig
+.eslintrc
+.gitattributes
+.gitignore
+commitlint.config.js
